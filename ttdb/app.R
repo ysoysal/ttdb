@@ -16,7 +16,7 @@ con <- dbConnect(RSQLite::SQLite(), "my_database.db")
 
 # UI tanımı
 ui <- fluidPage(
-  titlePanel("Fossil Database"),
+  titlePanel("Forked Fossil Database"),
   sidebarLayout(
     sidebarPanel(
       textInput("species", "Species:"),
